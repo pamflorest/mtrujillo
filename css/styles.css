@@ -1,0 +1,124 @@
+body{
+	font-family: 'Lato', sans-serif;
+	background: #ededed;
+}
+
+.up{
+	background: #f0ad00;
+}
+
+.slogan{
+	background: #f0ad00;
+	color: #fff;
+	padding: 20% 0;
+}
+
+.slogan h3{
+	font-weight: 300;
+	padding: 10% 16%;
+}
+
+a.boton{
+	background: #ededed;
+	color:#3e4042;
+	text-transform: uppercase;
+	padding: 10px 15px;
+}
+
+a.boton:hover, a.boton:active, a.boton:focus{
+	background: #d9d9d9;
+	text-decoration: none;
+}
+
+.main-img{
+	background: url('../img/main_img.jpg') no-repeat 100% 100%;
+	min-height: 603px;
+}
+
+.logo{
+	background: #3e4042;
+	padding: 12% 0;
+}
+
+.map{
+	background: url('../img/map.png') no-repeat 100% 100%;
+	padding: 13% 0;
+}
+
+.map h4, .map p,
+.contacto h4{
+	margin: 30px 0;
+}
+
+.contacto p{
+	margin: 10px 0;
+}
+
+.contacto{
+	background: #ededed;
+	padding: 13% 0 24.5%;
+}
+
+.contacto a{
+	color:#3e4042;
+}
+
+@media (max-width: 1024px) {
+	.slogan h3 {
+    	padding: 10% 10%;
+	}
+	.main-img {
+	    background-position:  80% center;
+	}
+}
+
+@media (max-width: 768px) {
+	.main-img {
+	    min-height: 430px;
+	    background-size: contain;
+	}
+}
+
+@media (max-width: 414px) {
+  	.slogan h3 {
+    	padding: 10% 10%;
+	}
+	.main-img {
+	    min-height: 230px;
+	    background-size: contain;
+	}
+}
+
+@media (max-width: 412px) {
+  	.slogan h3 {
+  		font-size: 20px;
+	}
+}
+
+@media (max-width: 320px) {
+  	.slogan h3 {
+    	padding: 10% 5%;
+	}
+
+	.slogan img {
+    	width: 100%;
+	}
+
+	.main-img {
+	    min-height: 180px;
+	    background-size: contain;
+	}
+
+	.map p{
+	    padding-left: 5%;
+	    padding-right: 5%;
+	}
+}
+
+
+
+
+
+
+
+
