@@ -91,8 +91,15 @@ a.boton:hover, a.boton:active, a.boton:focus{
 
 @media (max-width: 412px) {
   	.slogan h3 {
-  		font-size: 20px;
-	}
+  	    font-size: 20px;
+  	}
+}
+
+@media (max-width: 375px) {
+    .main-img {
+        min-height: 206px;
+        background-size: contain;
+    }
 }
 
 @media (max-width: 320px) {
@@ -114,11 +121,3 @@ a.boton:hover, a.boton:active, a.boton:focus{
 	    padding-right: 5%;
 	}
 }
-
-
-
-
-
-
-
-
