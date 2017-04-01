@@ -74,7 +74,7 @@ a.boton:hover, a.boton:active, a.boton:focus{
 
 @media (max-width: 768px) {
 	.main-img {
-	    min-height: 430px;
+	    min-height: 422px;
 	    background-size: contain;
 	}
 }
@@ -90,16 +90,24 @@ a.boton:hover, a.boton:active, a.boton:focus{
 }
 
 @media (max-width: 412px) {
+	.main-img {
+	    min-height: 227px;
+	}
   	.slogan h3 {
-  	    font-size: 20px;
-  	}
+  		font-size: 20px;
+	}
 }
 
 @media (max-width: 375px) {
-    .main-img {
-        min-height: 206px;
-        background-size: contain;
-    }
+  	.main-img {
+	    min-height: 206px;
+	}
+}
+
+@media (max-width: 360px) {
+  	.main-img {
+	    min-height: 198px;
+	}
 }
 
 @media (max-width: 320px) {
@@ -112,7 +120,7 @@ a.boton:hover, a.boton:active, a.boton:focus{
 	}
 
 	.main-img {
-	    min-height: 180px;
+	    min-height: 176px;
 	    background-size: contain;
 	}
 
@@ -121,3 +129,11 @@ a.boton:hover, a.boton:active, a.boton:focus{
 	    padding-right: 5%;
 	}
 }
+
+
+
+
+
+
+
+
