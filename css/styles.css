@@ -1,7 +1,25 @@
+@font-face {
+    font-family: 'bignoodletooobliqueitalic';
+    src: url('../fonts/bignoodletoo-webfont.woff2') format('woff2'),
+         url('../fonts/bignoodletoo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Barlow Semi Condensed', sans-serif;
 	background: #ededed;
 }
+
+h1,h2{
+	font-family: 'bignoodletooobliqueitalic';
+}
+
+p{ 
+	font-size: 16px;
+	font-weight: 500;
+ }
 
 .up{
 	background: #f0ad00;
@@ -13,20 +31,40 @@ body{
 	padding: 20% 0;
 }
 
+.slogan h1{
+	font-size: 54px;
+}
+
+.slogan h2{
+	font-size: 36px;
+}
+
 .slogan h3{
 	font-weight: 300;
 	padding: 10% 16%;
+	font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
-a.boton{
+.boton{
 	background: #ededed;
 	color:#3e4042;
-	text-transform: uppercase;
-	padding: 10px 15px;
+    text-transform: uppercase;
+    padding: 15px;
+    width: 200px;
+    display: inline-block;
+    font-size: 20px;
 }
 
-a.boton:hover, a.boton:active, a.boton:focus{
-	background: #d9d9d9;
+.boton img{
+	width: 25px;
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: -5px;
+}
+
+.boton:hover, .boton:active, .boton:focus{
+	background: #3e4042;
+	color:#fff;
 	text-decoration: none;
 }
 
@@ -42,7 +80,7 @@ a.boton:hover, a.boton:active, a.boton:focus{
 
 .map{
 	background: url('../img/map.png') no-repeat 100% 100%;
-	padding: 13% 0;
+	padding: 8.5% 0 ;
 }
 
 .map h4, .map p,
@@ -50,18 +88,45 @@ a.boton:hover, a.boton:active, a.boton:focus{
 	margin: 30px 0;
 }
 
-.contacto p{
-	margin: 10px 0;
-}
-
 .contacto{
 	background: #ededed;
-	padding: 13% 0 24.5%;
+	padding: 8% 0 8%;
+}
+
+.contacto h2{
+	margin-bottom:30px;
 }
 
 .contacto a{
 	color:#3e4042;
+	display: inline-block;
+	margin: 1% 1%;
 }
+
+a.whatsapp{
+	background: #4caf50;
+	color:#fff;
+}
+
+a.whatsapp:hover, a.whatsapp:active, a.whatsapp:focus{
+	background: #27752a;
+	text-decoration: none;
+}
+
+a.facebook{
+	background: #2196f3;
+	color:#fff;
+}
+
+a.facebook:hover, a.facebook:active, a.facebook:focus{
+	background: #0d6fbe;
+	text-decoration: none;
+}
+
+a.llamar, a.mail{
+	background: #d9d9d9; 
+}
+
 
 @media (max-width: 1024px) {
 	.slogan h3 {
@@ -75,7 +140,7 @@ a.boton:hover, a.boton:active, a.boton:focus{
 @media (max-width: 768px) {
 	.main-img {
 	    min-height: 422px;
-	    background-size: contain;
+	    background-size: cover;
 	}
 }
 
@@ -91,7 +156,7 @@ a.boton:hover, a.boton:active, a.boton:focus{
 
 @media (max-width: 412px) {
 	.main-img {
-	    min-height: 227px;
+	    min-height: 226px;
 	}
   	.slogan h3 {
   		font-size: 20px;
@@ -127,6 +192,12 @@ a.boton:hover, a.boton:active, a.boton:focus{
 	.map p{
 	    padding-left: 5%;
 	    padding-right: 5%;
+	}
+}
+
+@media (max-width: 280px) {
+	.main-img {
+	    background-size: cover;
 	}
 }
 
